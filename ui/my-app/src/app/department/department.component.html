@@ -14,9 +14,9 @@ Add Department
 
         
             <input class="form-control m-2"
-            [(ngModel)]="DepartmentIdFilter"
-            (keyup)="FilterFn()"
-            placeholder="Filter">
+            [(ngModel)]= "DepartmentIdFilter"
+            (keyup)= "FilterFn()"
+            placeholder= "Filter">
 
             <button type="button" class="btn btn-light"
             (click)="sortResult('DepartmentId',true)">
